@@ -1,12 +1,12 @@
-Dell Inspiron 5548 (4528S) for macOS Catalina 10.15.5  
+Dell Inspiron 5548 (4528S) for macOS Catalina 11.0.1  
 
-基于yuppiesnotzhuhao Clover个人修改OpenCore版
+OpenCore版
 
 电脑配置  
 
 规格	详细信息  
 电脑型号	戴尔 Inspiron 5548 笔记本电脑  
-操作系统	macOS Catalina 10.15.5    
+操作系统	macOS Catalina 11.0.1    
 处理器	英特尔 Core i5-5200U @ 2.70GHz 双核  
 内存	8 GB  
 硬盘  SSD 240G (240 GB, SATA-III)  
@@ -26,6 +26,6 @@ Dell Inspiron 5548 (4528S) for macOS Catalina 10.15.5
 3、电池热补丁未完成
 4、I2C触控板未完成热补丁
 5、DW1820A无线和蓝牙可用,无线用5G频段不干扰蓝牙使用 
-6、hotpatch补丁实现亮度调节，笔记本Fn快捷键可用,Commond键和Ctrl键未修改键位
-7、声卡为ALC255，使用 AppleALC 仿冒，注入layout-id:17，麦克风无问题  
+6、SSDT-PNLF & whatevergreen实现亮度调节，笔记本Fn快捷键可用
+7、声卡为ALC255，注入Device property，麦克风正常  
 8、现在usb已经内建，同时DSDT打补丁修复了睡眠唤醒
